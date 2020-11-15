@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="spinnerSelected">#BA1005</color>
+    <color name="spinnerDropDown">#048633</color>
+    <color name="Red">#FA1407</color>
+    <color name="Pink">#FC9F9F</color>
+    <color name="Pink1">#FCB4B4</color>
+    <color name="Yellow">#FCF0C1</color>
+    <color name="Yellow1">#FEEBA2</color>
+    <color name="Brown">#FCE1CD</color>
+    <color name="Brown1">#F3E2D5</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="lightBlue">#D3F9FE</color>
+    <color name="lightBlue1">#AFEDFC</color>
+    <color name="darkRed">#8F1F0F</color>
+    <color name="White">#FFFFFF</color>
+</resources>

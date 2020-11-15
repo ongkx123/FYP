@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="to">To</string>
+    <string-array name="time">
+        <item>Time</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1200</item>
+        <item>1300</item>
+        <item>1400</item>
+        <item>1500</item>
+        <item>1600</item>
+        <item>1700</item>
+        <item>1800</item>
+        <item>1900</item>
+        <item>2000</item>
+        <item>2100</item>
+        <item>2200</item>
+        <item>2300</item>
+        <item>2400</item>
+    </string-array>
+    <string-array name="courtNo">
+        <item>Number of Courts</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="cfmBooking">Confirm Booking</string>
+    <string name="search">Search</string>
+    <string name="BookingName">Name</string>
+    <string name="BookingDate">Date</string>
+    <string name="BookingTime">Time</string>
+    <string name="BookingNoCourt">Number Of Court</string>
+    <string-array name="paymentMethod">
+        <item>Payment Method</item>
+        <item>Paypal</item>
+        <item>Pay at Counter</item>
+    </string-array>
+    <string name="warning">Once you have click the confirm button, the booking will be delete</string>
+    <string name="title">Location Searching and Booking</string>
+</resources>

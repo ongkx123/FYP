@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC2ohU0iebAAtoKvco3dChzOmrbha4Uk3Q" />
+
+        <activity android:name=".LocationSearchBookingActivity" />
+        <activity android:name=".ChatListActivity" />
+        <activity android:name=".Type_Activity" />
+        <activity android:name=".ShowMapActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".UpdateBookingActivity" />
+        <activity android:name=".ShowAllBookingActivity" />
+        <activity android:name=".DisplayBookingDetailsActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
